@@ -54,6 +54,7 @@ color: red;
 .coluna{
     display: flex;
     flex-direction: column;
+    background-color: rgb(245, 211, 179);
 }
 
 .tamanho{
@@ -98,12 +99,14 @@ h1{
     font-size: 200%;
     margin-bottom: 4%;
     font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 178, 235)
 }
 
 h2{
     font-size: 180%;
     margin-bottom: 10%;
     font-family: 'Playfair Display', serif;
+    color: rgb(87, 178, 235)
 }
 
 .linha2 {
@@ -116,12 +119,14 @@ h3{
     font-size: 150%;
     margin-bottom: 5%;
     font-family: 'Playfair Display', serif;
+    color: rgb(87, 178, 235)
 }
 
 h4{
     font-size: 200%;
     margin-bottom: 1%;
     font-family: 'Playfair Display', serif;
+    color: rgb(87, 178, 235)
 }
 
 h5{
@@ -129,8 +134,14 @@ h5{
     margin-bottom: 1%;
     margin-top: 5%;
     font-family: 'Playfair Display', serif;
+    color: rgb(87, 178, 235)
 }
 
 .Fonte{
     font-family: 'Playfair Display', serif;
 }
+
+.cor-do-fundo{
+    background-color: rgb(245, 211, 179);
+}
+
