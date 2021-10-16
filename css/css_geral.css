@@ -123,14 +123,14 @@ h3{
 }
 
 h4{
-    font-size: 200%;
+    font-size: 120%;
     margin-bottom: 1%;
     font-family: 'Playfair Display', serif;
     color: rgb(87, 178, 235)
 }
 
 h5{
-    font-size: 250%;
+    font-size: 210%;
     margin-bottom: 1%;
     margin-top: 5%;
     font-family: 'Playfair Display', serif;
@@ -145,3 +145,36 @@ h5{
     background-color: rgb(245, 211, 179);
 }
 
+.celular {
+    width: 360px;
+    height: 640px;
+    position: relative;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;
+    background-color: rgb(245, 211, 179);
+    box-shadow: 2px 2px 5px gray;
+}
+
+h6{
+    font-size: 90%;
+    margin-bottom: 5%;
+    font-family: 'Playfair Display', serif;
+    color: rgb(87, 178, 235)
+}
+
+.ind-masp{
+    margin-top: 1rem;
+}
+
+.voltar-masp{
+    position: absolute;
+    right: 0;
+}
+
+.foto-sp{
+    display: flex;
+    width: 98%; 
+    height: 30%;
+}
