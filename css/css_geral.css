@@ -28,6 +28,7 @@
     flex-direction: row;
     width: 40%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .titulo{
@@ -37,8 +38,8 @@
 }
 
 .itemrest2 {
-    height: 40%;
-    width: 40%;
+    height: 50%;
+    width: 50%;
 }
 .busca{
     display: flex;
@@ -55,6 +56,7 @@ color: rgb(87, 178, 235);
     display: flex;
     flex-direction: column;
     background-color: rgb(227, 244, 255);
+    font-size: 80%;
 }
 
 .tamanho{
@@ -77,8 +79,7 @@ color: rgb(87, 178, 235);
 }
 .img{
     display:block;
-    min-height: 10%;
-    width: 40%;
+    width: 70%;
 
 }
 
@@ -199,4 +200,11 @@ h6{
     width: 20%;
     bottom: 0;
     right: 0;
+}
+
+.temaki{
+    display: block;
+    width: 140%;
+    height: 140%;
+
 }
