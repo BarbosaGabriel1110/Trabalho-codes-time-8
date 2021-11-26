@@ -48,13 +48,13 @@
 display: block;
 min-height: 3rem;
 width: 70%;
-color: red;
+color: rgb(87, 178, 235);
 }
 
 .coluna{
     display: flex;
     flex-direction: column;
-    background-color: rgb(245, 211, 179);
+    background-color: rgb(227, 244, 255);
 }
 
 .tamanho{
@@ -92,7 +92,7 @@ color: red;
     display: flex;
     min-height: 3rem;
     width: 70%;
-    color: red;
+    color: rgb(87, 178, 235);
     }
 
 h1{
@@ -142,7 +142,7 @@ h5{
 }
 
 .cor-do-fundo{
-    background-color: rgb(245, 211, 179);
+    background-color: rgb(227, 244, 255);
 }
 
 .celular {
@@ -153,7 +153,7 @@ h5{
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 1rem;
-    background-color: rgb(245, 211, 179);
+    background-color: rgb(227, 244, 255);
     box-shadow: 2px 2px 5px gray;
 }
 
