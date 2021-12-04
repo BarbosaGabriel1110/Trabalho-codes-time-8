@@ -1,3 +1,15 @@
+.celular {
+    width: 360px;
+    height: 640px;
+    position: relative;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;
+    background-color: rgb(227, 244, 255);
+    box-shadow: 2px 2px 5px black;
+}
+
 .itemrest {
     height: 40%;
     width: 40%;
