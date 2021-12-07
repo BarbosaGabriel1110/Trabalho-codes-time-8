@@ -14,10 +14,8 @@ document.addEventListener("DOMContentLoaded", function(){
     select.addEventListener("change", myScript);
 
     continuar.addEventListener('click', function(event) {
-            if(cidade == 'Escolha'){
-                window.location.href = "restaurante.html";
-            }
-            else if(cidade == 'SaoPaulo'){
+        console.log(cidade)
+         if(cidade == 'Sao Paulo'){
                 window.location.href = "sp.html";
             }
         })
