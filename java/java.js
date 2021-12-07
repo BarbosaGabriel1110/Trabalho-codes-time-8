@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     opcoes = document.querySelectorAll('option')
 
+
     var select = document.getElementById('categorias');
 
     function myScript(){
