@@ -1,23 +1,24 @@
 document.addEventListener("DOMContentLoaded", function(){
 
-    h3s = document.querySelectorAll('h3')
-    continuar = h3s[0]
+    continuar = document.querySelector('h3')
 
     opcoes = document.querySelectorAll('option')
 
-    var select = document.getElementById('categorias');
+    console.log(opcoes)
+
+    var select = document.getElementById('cidades');
 
     function myScript(){
-        restaurante = select.value
+        city = select.value
     }
 
     select.addEventListener("change", myScript);
 
     continuar.addEventListener('click', function(event) {
-            if(restaurante == 'japonesa'){
-                window.location.href = "restaurante.html";
+            if(city == 'São Paulo'){
+                window.location.href = "sp.html";
             }
-            else if(restaurante == 'italiana'){
+            else if(city == 'Escolha'){
                 window.location.href = "rest_italiano.html";      
             }
         })
